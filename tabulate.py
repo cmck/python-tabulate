@@ -379,6 +379,14 @@ _table_formats = {"simple":
                               linebetweenrows=None, linebelow=None,
                               headerrow=DataRow("|_. ", "|_.", "|"),
                               datarow=_textile_row_with_attrs,
+                              padding=1, with_header_hide=None),
+                  "testrail":
+                  TableFormat(lineabove=None,
+                              linebelowheader=None,
+                              linebetweenrows=None,
+                              linebelow=None,
+                              headerrow=DataRow("|||", "|", ""),
+                              datarow=DataRow("||", "|", ""),
                               padding=1, with_header_hide=None)}
 
 
