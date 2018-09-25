@@ -167,6 +167,7 @@ Supported table formats are:
 - "latex_raw"
 - "latex_booktabs"
 - "textile"
+- "testrail"
 
 ``plain`` tables do not use any pseudo-graphics to draw lines::
 
@@ -662,7 +663,7 @@ Usage of the command line utility
     -f FMT, --format FMT      set output table format; supported formats:
                               plain, simple, github, grid, fancy_grid, pipe,
                               orgtbl, rst, mediawiki, html, latex, latex_raw,
-                              latex_booktabs, tsv
+                              latex_booktabs, tsv, testrail
                               (default: simple)
 
 
